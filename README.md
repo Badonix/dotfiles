@@ -14,7 +14,7 @@ Here are some of my dotfiles, I just dumped it here to save for myself but feel 
 
 2\. You will need feh and picom installed
 
-Brave had some issues on kwallet, it was asking me on and on so I installed some weird things and the solution if I remember correctly was to set the password to blank for kwallet and also I need to install some authenticator agent and I installed the lxqt-policykit-agent (that should be running so I added it in i3 config)
+Brave had some issues on kwallet, it was asking me on and on so I installed some weird things and the solution if I remember correctly was to set the password to blank for kwallet and also I needed to install some authenticator agent and I installed the lxqt-policykit-agent (that should be running so I added it in i3 config)
 
 That's the things I got stuck on, you will figure out everything by yourself from i3 config
 
