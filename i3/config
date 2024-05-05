@@ -230,3 +230,4 @@ exec alacritty
 exec dunst
 exec kwalletd5
 exec /usr/bin/lxqt-policykit-agent
+exec --no-startup-id setxkbmap -layout "us,ge" -option "grp:win_space_toggle"
