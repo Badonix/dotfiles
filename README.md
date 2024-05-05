@@ -19,3 +19,9 @@ Brave had some issues on kwallet, it was asking me on and on so I installed some
 That's the things I got stuck on, you will figure out everything by yourself from i3 config
 
 OOH and you need wallpaper in `Pictures/wallpaper.png`, if you want any other directory change it in config :)
+
+TODO
+
+---
+
+dunst
