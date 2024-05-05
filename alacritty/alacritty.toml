@@ -1,0 +1,34 @@
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_material.toml"
+]
+live_config_reload = true
+[env]
+TERM = "xterm-256color"
+[window]
+opacity = 0.95
+dynamic_padding = false
+title="nick"
+decorations="None"
+startup_mode="Fullscreen"
+
+[shell]
+program = "tmux"
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "ComicShannsMono Nerd Font"
+style = "Heavy"
+
+[font.bold_italic]
+family = "ComicShannsMono Nerd Font"
+style = "Heavy Italic"
+
+[font.italic]
+family = "ComicShannsMono Nerd Font"
+style = "Medium Italic"
+
+[font.normal]
+family = "ComicShannsMono Nerd Font"
+style = "Medium"
