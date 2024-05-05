@@ -107,6 +107,10 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# screenshot using flameshot, Printscr for full screen and Shift+Printscr for selection
+bindsym Print exec flameshot screen --clipboard --path /home/$USER/Pictures/
+bindsym Shift+Print exec flameshot gui --clipboard --path /home/$USER/Pictures
+
 # focus the child container
 #bindsym $mod+d focus child
 
