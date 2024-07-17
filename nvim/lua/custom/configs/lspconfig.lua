@@ -4,7 +4,7 @@ local capabilities = base.capabilities
 local lspconfig = require("lspconfig")
 local util = require "lspconfig/util"
 
-local servers = {"tsserver", "tailwindcss", "eslint", "cssls"}
+local servers = {"tsserver", "eslint", "cssls", "templ"}
 
 lspconfig.rust_analyzer.setup({
   on_attach = on_attach,
@@ -18,6 +18,13 @@ lspconfig.rust_analyzer.setup({
       }
     }
   }
+})
+
+lspconfig.tailwindcss.setup({
+    on_attach = on_attach,
+    capabilities = capabilities,
+    filetypes = { "templ", "astro", "javascript", "typescript", "react" },
+    init_options = { userLanguages = { templ = "html" } },
 })
 
 for _, lsp in ipairs(servers) do

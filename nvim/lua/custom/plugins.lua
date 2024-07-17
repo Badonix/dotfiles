@@ -14,7 +14,10 @@ local plugins = {
     "ThePrimeagen/vim-be-good",
     lazy=false
   },
-
+  {
+    "joerdav/templ.vim",
+    ft={"templ"}
+  },
   {
     "saecki/crates.nvim",
     ft={"rust", "toml"},
