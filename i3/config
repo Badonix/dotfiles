@@ -236,6 +236,6 @@ exec xrandr --output DP-0 --mode 1920x1080 --rate 165.00
 # GAPS
 # gaps inner 10px
 # gaps outer 10px
-gaps bottom 3px
-gaps inner 3px
-gaps horizontal 3px
+# gaps bottom 3px
+# gaps inner 3px
+# gaps horizontal 3px
