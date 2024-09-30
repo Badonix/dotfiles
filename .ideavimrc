@@ -1,0 +1,22 @@
+
+let mapleader=" "
+
+set clipboard+=ideaput
+set ideajoin
+set scrolloff=5
+set commentary
+
+
+noremap <Leader>s :source ~/.ideavimrc<CR>
+map <Leader>ff <action>(com.mituuz.fuzzier.Fuzzier)
+
+noremap <Space>rr :action Run<CR>
+noremap <Space>r :action RenameFile<CR>
+noremap <Space>d :action SafeDelete<CR>
+noremap <Space>gl :action ShowErrorDescription<CR>
+" nnoremap <S-j> :action MoveLineDown<CR>
+" nnoremap <S-k> :action MoveLineUp<CR>
+nnoremap <Leader>a :action NewClass<CR>
+
+vnoremap <S-j> :m'>+<CR>gv=gv
+vnoremap <S-k> :m-2<CR>gv=gv
