@@ -13,7 +13,7 @@ set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 10
+font pango:monospace 7
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -218,7 +218,7 @@ bar {
 #         }
 }
 
-bindsym $mod+shift+x exec i3lock
+bindsym $mod+shift+x exec i3lock -i Pictures/i3lock.png
 
 # bindsym $mod+d exec rofi -no-config -show drun 
 bindsym $mod+d exec dmenu_run
@@ -231,7 +231,7 @@ exec discord
 exec alacritty
 exec dunst
 exec_always setxkbmap -layout us,ge -option grp:win_space_toggle -model pc105
-exec xrandr --output DP-0 --mode 1920x1080 --rate 165.00
+exec xrandr --output DP-4 --mode 1920x1080 --rate 165.00
 exec --no-startup-id lxpolkit
 exec --no-startup-id /usr/libexec/gsd-xsettings
 
@@ -248,6 +248,8 @@ for_window [class="^.*"] border pixel 0
 # gaps inner 3px
 # gaps horizontal 3px
 
-
-
+gaps inner 0
+gaps outer 0
+for_window [class="acm-program-Program"] floating enable
+for_window [class="Yahtzee"] floating enable
 
